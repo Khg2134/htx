@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hội trại xuân 9.3</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
+    />
+</head>
+<body>
+    <!-- Background Stars -->
+    <div id="stars-background"></div>
+    
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+    
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <a href="#home" class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-satellite"></i>
+                </div>
+                <span>Hội trại xuân 9.3</span>
+            </a>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                <i class="ph ph-list"></i>
+            </button>
+            
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="#home">Trang chủ</a></li>
+                    <li><a href="#about">Giới thiệu</a></li>
+                    <li><a href="#menu">Thực đơn</a></li>
+                    <li><a href="#activities">Hoạt động</a></li>
+                    <li><a href="#token-input">Chơi game</a></li>
+                    <li><a href="#team">Đội ngũ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h1>Ẩm thực Vũ trụ<br>Trại Xuân 2026</h1>
+        <p class="hero-subtitle">Khám phá tương lai của ẩm thực tại gian hàng độc quyền lấy cảm hứng từ khoa học vũ trụ. Mỗi món ăn là một hành trình giác quan được nghiên cứu và phát triển bởi các chuyên gia ẩm thực và nhà khoa học.</p>
+        <a href="#menu" class="cta-button">KHÁM PHÁ THỰC ĐƠN</a>
+    </section>
+    
+    <!-- About Section -->
+    <section class="section-container" id="about">
+        <h3>Về Hội Trại Xuân 9.3</h3>
+        <div class="about-grid">
+            <div class="about-content">
+                <p>Hội trại xuân 9.3 là một gian hàng ẩm thực được tổ chức tại trường THCS Tân Thối Hòa, nơi hội tụ những tinh hoa ẩm thực li kì và thú vị</p>
+                
+                <div class="about-features">
+                    <div class="feature">
+                        <i class="ph ph-rocket-launch"></i>
+                        <div>
+                            <h4>Chủ đề Không gian</h4>
+                            <p>Mang đến trải nghiệm ẩm thực với cảm hứng từ vũ trụ và công nghệ tương lai</p>
+                        </div>
+                    </div>
+                    
+                    <div class="feature">
+                        <i class="ph ph-users-three"></i>
+                        <div>
+                            <h4>Cộng đồng Sáng tạo</h4>
+                            <p>Quy tụ học sinh cùng tham gia vào các hoạt động sáng tạo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- <div class="about-stats">
+                <div class="stat">
+                    <div class="stat-number">3+</div>
+                    <div class="stat-label">Món ăn</div>
+                </div>
+                
+                <div class="stat">
+                    <div class="stat-number">42+</div>
+                    <div class="stat-label">Tình nguyện viên</div>
+                </div>
+                
+                <div class="stat">
+                    <div class="stat-number">1</div>
+                    <div class="stat-label">Trò chơi hấp dẫn</div>
+                </div
+            </div> -->
+        </div>
+    </section>
+    
+    <!-- Food Menu Section -->
+    <section class="section-container" id="menu">
+        <h3>Thực đơn Vũ trụ Đặc biệt</h3>
+        <p class="section-subtitle">Khám phá các món ăn độc đáo được lấy cảm hứng từ không gian và công nghệ tương lai</p>
+        
+        <div class="food-grid">
+            <!-- Food Item 1 -->
+            <div class="food-card food-1">
+                <div class="food-image">
+                    <div class="food-label">Bán chạy</div>
+                </div>
+                <div class="food-content">
+                    <div class="food-title">
+                        <div class="food-name">Mì Ý Vạn Năng</div>
+                        <div class="food-price">25.000₫</div>
+                    </div>
+                    <p class="food-description">Sốt ngon với cà chua vũ trụ, đưa bạn tiến vào hành trình không gian. Thêm rau củ tươi từ trang trại công nghệ cao.</p>
+                    <div class="food-tags">
+                        <span class="tag">Nóng</span>
+                        <span class="tag">Món chính</span>
+                        <span class="tag">Đặc biệt</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Food Item 2
+            <div class="food-card food-2">
+                <div class="food-image">
+                    <div class="food-label">Mới</div>
+                </div>
+                <div class="food-content">
+                    <div class="food-title">
+                        <div class="food-name">Bánh mì Ngân hà</div>
+                        <div class="food-price">20.000₫</div>
+                    </div>
+                    <p class="food-description">Bánh mì siêu giòn với nhân thập cẩm từ các thiên hà. Kết hợp hương vị truyền thống và hiện đại.</p>
+                    <div class="food-tags">
+                        <span class="tag">Nhanh</span>
+                        <span class="tag">Tiện lợi</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Food Item 3 -->
+            <div class="food-card food-3">
+                <div class="food-image">
+                    <div class="food-label">Phổ biến</div>
+                </div>
+                <div class="food-content">
+                    <div class="food-title">
+                        <div class="food-name">Trà Sao băng</div>
+                        <div class="food-price">15.000₫</div>
+                    </div>
+                    <p class="food-description">Trà thảo mộc với hương vị tươi mát từ các vì sao. Thức uống giải khát hoàn hảo cho mùa xuân.</p>
+                    <div class="food-tags">
+                        <span class="tag">Lạnh</span>
+                        <span class="tag">Thức uống</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Food Item 4 -->
+            <div class="food-card food-4">
+                <div class="food-image"></div>
+                <div class="food-content">
+                    <div class="food-title">
+                        <div class="food-name">Pizza Hành tinh Đỏ</div>
+                        <div class="food-price">35.000₫</div>
+                    </div>
+                    <p class="food-description">Pizza với lớp phô mai vũ trụ và topping từ rau củ tươi. Một phần đủ cho 2-3 người.</p>
+                    <div class="food-tags">
+                        <span class="tag">Nóng</span>
+                        <span class="tag">Chia sẻ</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Activities Section -->
+    <section class="section-container" id="activities">
+        <h3>Hoạt động & Trò chơi</h3>
+        <p class="section-subtitle">Khám phá các hoạt động thú vị và trò chơi hấp dẫn tại Hội trại Xuân 9.3</p>
+        
+        <div class="activities-grid">
+            <div class="activity-card">
+                <div class="activity-icon">
+                    <i class="ph ph-game-controller"></i>
+                </div>
+                <h3>Trạm trò chơi Vũ trụ</h3>
+                <p>Hãy tưởng tượng bạn đang ngồi thưởng thức một món ăn ngon, bên cạnh là một mã truy cập bí ẩn mở ra cánh cổng dẫn đến vũ trụ bao la. Đó chính là khởi đầu của hành trình đặc biệt mà chúng tôi mang đến - một trải nghiệm kết hợp tinh tế giữa ẩm thực và khám phá không gian qua những trò chơi lấy cảm hứng từ vũ trụ.</p>
+            </div>
+            
+            <div class="activity-card">
+                <div class="activity-icon">
+                    <i class="ph ph-hamburger"></i>
+                </div>
+                <h3>Ẩm thực đặc sắc</h3>
+                <p>Thưởng thức ẩm thực không đơn thuần chỉ là ăn uống - đó là một cuộc hành trình giác quan xuyên qua các nền văn hóa, lịch sử và địa lý. Mỗi món ăn đặc sắc mang trong mình một câu chuyện kỳ thú, một bí quyết được truyền qua nhiều thế hệ, và một sự sáng tạo không ngừng nghỉ.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-container" id="token-input">
+        <h3>Nhập token</h3>
+        <p class="section-subtitle">Nhập token tham gia game, rinh quà khủng</p>
+        <a href="/token">Nhập token</a>
+    </section>
+    
+    <!-- Team Section -->
+    <section class="section-container" id="team">
+        <h3>Đội ngũ thiết kế</h3>
+        <p class="section-subtitle">Gặp gỡ những người đã tạo nên Hội trại Xuân 9.3 đặc biệt năm nay</p>
+        
+        <div class="team-grid">
+            <div class="team-member">
+                <div class="member-avatar">
+                    <i class="ph ph-planet"></i>
+                </div>
+                <h4>Đinh Hữu Nguyên Khang</h4>
+                <div class="member-role">Trưởng Ban web</div>
+                <p>Lớp 9.3 - Phụ trách chung và điều phối các hoạt động</p>
+            </div>
+            
+            <div class="team-member">
+                <div class="member-avatar">
+                    <i class="ph ph-fork-knife"></i>
+                </div>
+                <h4>Chu Thiện Nhân</h4>
+                <div class="member-role">Trưởng ban game</div>
+                <p>Lớp 9.3 - Phụ trách th</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <!-- <footer>
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-logo">
+                        <i class="fas fa-satellite"></i>
+                        Hội trại xuân 9.3
+                    </div>
+                    <p class="footer-description">Gian hàng ẩm thực cao cấp tại Trại Xuân 2026, nơi hội tụ tinh hoa ẩm thực và khoa học vũ trụ. Trải nghiệm độc nhất chỉ có tại sự kiện.</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4>Liên kết nhanh</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Trang chủ</a></li>
+                        <li><a href="#about">Giới thiệu</a></li>
+                        <li><a href="#menu">Thực đơn</a></li>
+                        <li><a href="#activities">Hoạt động</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4>Thông tin</h4>
+                    <ul class="footer-links">
+                        <li><a href="#team">Đội ngũ</a></li>
+                        <li><a href="#gallery">Hình ảnh</a></li>
+                        <li><a href="#contact">Liên hệ</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4>Liên hệ</h4>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-school"></i> THCS Tân Thối Hòa</li>
+                        <li><i class="fas fa-clock"></i> 9:00 - 22:00 hàng ngày</li>
+                        <li><i class="fas fa-envelope"></i> hoitraitan@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> 0901 234 567</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2026 Hội trại xuân 9.3 - THCS Tân Thối Hòa. Tất cả các quyền được bảo lưu.</p>
+            </div>
+        </div>
+    </footer> -->
+    
+    <script src="/js/main.js"></script>
+</body>
+</html>
